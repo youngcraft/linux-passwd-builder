@@ -23,10 +23,12 @@ eg:
 [root@localhost ~]$ openssl passwd -1 -salt '12345678'   # 12345678 not a target string we wanna crypto, just the length of string
 
 -1 stand for md5 
+
 -2 ,-3 .... stand for other cryto algorithm
 
 
 ## method2 :grub-crypt --sha-512
+
 
 [root@localhost ~]grub-crypt --sha-512
 
@@ -39,6 +41,8 @@ using docker to build the grub-crypt
 
 ## write your own key generate python
 
-...
+[references](http://blog.51cto.com/axe999/1386832)
+
+
 
 [Not End]
